@@ -1,0 +1,21 @@
+#ToDoList {
+    background-color: white;
+    position: static;
+    text-align: center;
+    margin: 100px;
+    border: 1px solid black;
+}
+
+.font1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#task {
+    width: 80%;
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+::placeholder {
+    color: black;
+}
