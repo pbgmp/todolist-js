@@ -35,6 +35,19 @@ body {
     color: black;
 }
 
+.second-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+
+.second-row-left{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 #date {
     background-color: orange;
     border: 1px solid orange;
@@ -42,10 +55,17 @@ body {
     font-size: large;
 
 }
-.button-row {
-    font-size: medium;
-    display: flex;
+#label {
+    overflow-x: auto;
 }
+
+
 #label-content{
     display: none;
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }

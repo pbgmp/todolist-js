@@ -10,18 +10,16 @@
 <body>
     <div class="container" id="ToDoList">
         <h1 id="h1">To Do List</h1>
-        <div class="input-area">
-            <form>
-                <input type="text" class="font1" id="task" placeholder="Write your task..."> <br>
+        <input type="text" class="font1" id="task" placeholder="Write your task..."> <br>
+        <div class="second-row">
+            <div class="second-row-left">
                 <input type="date" id="date">
-                <div class="button-row">
-                    <div><button>Label</button></div>
-                        <div id="label-content">
-                            <a href="new-label">Add Label</a> </div>
-                    <div><button>Cancel</button></div>
-                    <div><button type="submit">Add</button></div>
-                </div>
-            </form>
+                <button id="label">Label</button>
+                    <div id="label-content">
+                        <a href="new-label">Add Label</a> </div></div>
+            <div class="button-group">  
+                <button id="cancel">Cancel</button>
+                <button id="add" type="submit">Add</button></div>
         </div>
 </body>
 </html>
