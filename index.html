@@ -10,16 +10,46 @@
 <body>
     <div class="container" id="ToDoList">
         <h1 id="h1">To Do List</h1>
-        <input type="text" class="font1" id="task" placeholder="Write your task..."> <br>
-        <div class="second-row">
-            <div class="second-row-left">
-                <input type="date" id="date">
-                <button id="label">Label</button>
-                    <div id="label-content">
-                        <a href="new-label">Add Label</a> </div></div>
-            <div class="button-group">  
-                <button id="cancel">Cancel</button>
-                <button id="add" type="submit">Add</button></div>
+        <div class="input-task">
+            <input type="text" class="font1" id="task" placeholder="Write your task..."> <br>
+            <div class="second-row">
+                <div class="task-info">
+                    <input type="date" id="date">
+                    <button id="label">Label</button>
+                        <div id="label-content">
+                            <a href="new-label">Add Label</a> </div></div>
+                <div class="action-button">  
+                    <button id="cancel">Cancel</button>
+                    <button id="add" type="submit">Add</button></div>
+            </div>
+        </div><br>
+        <div class="sorting-task">
+            <div class="sorting-button">
+                <div class="left-sorting-button">
+                    <button id="search">Search</button>
+                    <button id="filter">Filter</button></div>
+                <div class="right-sorting-button">
+                    <button id="delete-all">Delete All</button></div>
+                </div>
+            <table class="task-table">
+                <thead>
+                    <tr>
+                        <th>Label</th>
+                        <th>Task</th>
+                        <th>Due Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="task-table-body">
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>            
         </div>
+    </div>
 </body>
 </html>
