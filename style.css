@@ -7,6 +7,10 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
@@ -19,7 +23,11 @@ body {
 }
 
 #h1 {
+    display: flex;
+    align-items: start;
     text-align: center;
+    font-size: x-large;
+
 }
 
 #task {
